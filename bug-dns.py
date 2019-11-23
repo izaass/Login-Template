@@ -4,8 +4,8 @@ import datetime
 import random
 import string
 
-referrer = input("ID: ")
-timesToLoop = input("GB: ")
+referrer = "a8bae846-dbdb-46f9-8871-a5a2a4922761"
+timesToLoop = 9999999999999
 retryTimes = 5
 
 
