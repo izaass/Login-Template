@@ -4,8 +4,8 @@ import datetime
 import random
 import string
 
-referrer = input("Nhập ID của bạn: ")
-timesToLoop = input("Nhập số GB muốn tăng: ")
+referrer = input("ID: ")
+timesToLoop = input("GB: ")
 retryTimes = 5
 
 
