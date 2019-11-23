@@ -4,7 +4,7 @@ import datetime
 import random
 import string
 
-referrer = "id account cua bạn"
+referrer = "id"
 timesToLoop = 50
 retryTimes = 5
 
