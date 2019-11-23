@@ -4,8 +4,8 @@ import datetime
 import random
 import string
 
-referrer = input("ID: ")
-timesToLoop = input("GB: ")
+referrer = "id account cua bạn"
+timesToLoop = 50
 retryTimes = 5
 
 
@@ -41,7 +41,7 @@ def run():
     return r
 
 
-for i in range(int(timesToLoop)):
+for i in range(timesToLoop):
     result = run()
     if result.status_code == 200:
         print(i + 1, "OK")
